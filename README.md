@@ -23,6 +23,9 @@ Developer Friendly
 **Installing Linux Operating System**
 It include three installation of three softwares:
 
-1.Oracle Virtual Machine
-2.Microsoft Visual C++
+1.Oracle Virtual Machine https://download.virtualbox.org/virtualbox/7.0.20/VirtualBox-7.0.20-163906-Win.exe 
+
+2.Microsoft Visual C++ 
+
 3.Ubuntu 24.04.2
+
