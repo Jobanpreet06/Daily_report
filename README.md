@@ -65,7 +65,7 @@ Set the required memory space and processors
 - Infosys, TCS, Wipro, Accenture
 - Work on client-owned codebases
 
-**Startups**
+**Startups:**
 - Startups are newly established companies aiming to solve problems with innovative solutions.
 - They focus on rapid growth and scalability, often with limited resources.
 - Common goal: grow fast, get acquired, or go public
