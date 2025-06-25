@@ -36,13 +36,19 @@ It include installation of three softwares:
 *After installing Oracle virtual machine and Microsoft Visual C++, install Ubuntu 24.04.02.*
 
 *Set Up Ubuntu in VirtualBox:*
+
 Open VirtualBox
+
 Click New > Name: e.g., Ubuntu VM
+
 Select the path of Ubuntu in iso image
+
 Set:
     Type: Linux
     Version: Ubuntu (64-bit)
+    
 Enter the username and password
+
 Set the required memory space and processors
 
 **Product based companies:**
