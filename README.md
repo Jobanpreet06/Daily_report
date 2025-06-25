@@ -13,7 +13,7 @@ Developer Friendly
 
 *Difference between Linux and Windows*
 | Features | Linux | Windows |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
+| :---: | :---: | :---: |
 | Cost | Usually free | Paid license required |
 | Source code | Open source(free to access) | Not an open source |
 | Security | It is more secure as admin password is required | It is not secure as there is a risk of viruses |
