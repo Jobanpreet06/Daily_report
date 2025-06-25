@@ -4,6 +4,7 @@ Introduction to linux:
 Linux was developed by a person named **Linus** in 1991. Linux is a powerful, open source operating system.
 
 *Linux is preferred over windows due to its numerous features:*
+
 Open Source & Free
 Stability & Reliability
 Provides Security
