@@ -22,5 +22,7 @@ Developer Friendly
 
 **Installing Linux Operating System**
 It include three installation of three softwares:
+
 1.Oracle Virtual Machine
 2.Microsoft Visual C++
+3.Ubuntu 24.04.2
