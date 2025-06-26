@@ -145,7 +145,7 @@ fish: User-friendly shell with smart features and easy syntax.
 
 The root directory, represented by a single slash /, is the top-level directory of the entire Linux file system hierarchy. All files and directories branch out from this root directory.
 
-![alt text](linux-file-system-tutorial-1.png)
+![alt text](image.jpg)
 
 | Directory | Description |
 |-----------|-------------|
