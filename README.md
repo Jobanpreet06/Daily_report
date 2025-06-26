@@ -1,4 +1,4 @@
-# TRCS201_2025
+# Daily training
 ## 1st day of training
 Introduction to linux:
 Linux was developed by a person named **Linus** in 1991. Linux is a powerful, open source operating system.
