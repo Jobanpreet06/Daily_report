@@ -133,6 +133,8 @@ Commands are instructions you type into the terminal to tell the computer to per
 
 ls - Lists files and directories
 
+![alt text](t.jpg)
+
 whoami - Displays the username of the current user.
 
 date - Displays the current date and time of the system.
