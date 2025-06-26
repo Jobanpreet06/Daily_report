@@ -127,6 +127,8 @@ fish: User-friendly shell with smart features and easy syntax.
 
 The root directory, represented by a single slash /, is the top-level directory of the entire Linux file system hierarchy. All files and directories branch out from this root directory.
 
+![alt text](linux-file-system-tutorial-1.png)
+
 **Commands**
 
 Commands are instructions you type into the terminal to tell the computer to perform specific tasks like managing files, running programs, or checking system status.
@@ -137,35 +139,35 @@ ls - Lists files and directories
 
 whoami - Displays the username of the current user.
 
-![alt text](whoami.jpg)
+![alt text](whoami.png)
 
 date - Displays the current date and time of the system.
 
-![alt text](date.jpg)
+![alt text](date.png)
 
 cd - Changes the current directory
 
-![alt text](cd.jpg)
+![alt text](cd.png)
 
 mkdir - Creates a new directory
 
-![alt text](mkdir.jpg)
+![alt text](mkdir.png)
 
 cat - Displays contents of a file
 
-![alt text](cat.jpg)
+![alt text](cat.png)
 
 touch - creates empty files or updates the modification time of existing files.
 
-![alt text](touch.jpg)
+![alt text](touch.png)
 
 cp - Copies files or directories
 
-![alt text](cp.jpg)
+![alt text](cp.png)
 
 pwd - Shows the current directory path
 
-![alt text](pwd.jpg)
+![alt text](pwd.png)
 
 whereis - Locates the binary, source, and manual files for a command.
 
