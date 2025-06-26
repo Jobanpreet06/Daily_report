@@ -171,6 +171,12 @@ pwd - Shows the current directory path
 
 whereis - Locates the binary, source, and manual files for a command.
 
+![alt text](whereis.png)
+
 whatis - Gives a one-line description of a command or program.
 
+![alt text](whatis.png)
+
 mv - Moves or renames files or directories
+
+![alt text](mv.png)
