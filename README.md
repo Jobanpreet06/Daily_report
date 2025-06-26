@@ -80,6 +80,24 @@ It include installation of three softwares:
 - They focus on rapid growth and scalability, often with limited resources.
 - Common goal: grow fast, get acquired, or go public
 
+**Career Opportunities Using Linux**
+
+1. System Administrator
+
+2. DevOps Engineer
+
+3. Cloud Engineer
+
+4. Linux Administrator
+
+5. Cybersecurity Analyst
+
+6. QA/Test Engineer
+
+7. Database Administrator
+
+8. Software Developer
+
 **Booting**
 
 Booting is the process of starting up a computer and loading the operating system (OS) into the computer's memory so that it can be used. When you turn on a computer, it performs a series of steps to prepare the hardware and software for use.
