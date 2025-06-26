@@ -100,4 +100,6 @@ In today's class, we learnt about:
 
 **Kernel**
 
+The kernel is the core part of an operating system. It acts as a bridge between the computer hardware and the software applications. The kernel manages system resources such as the CPU, memory, and input/output devices, ensuring that programs run smoothly and efficiently.
+
 
