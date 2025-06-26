@@ -137,19 +137,35 @@ ls - Lists files and directories
 
 whoami - Displays the username of the current user.
 
+![alt text](whoami.jpg)
+
 date - Displays the current date and time of the system.
+
+![alt text](date.jpg)
 
 cd - Changes the current directory
 
+![alt text](cd.jpg)
+
 mkdir - Creates a new directory
+
+![alt text](mkdir.jpg)
 
 cat - Displays contents of a file
 
+![alt text](cat.jpg)
+
 touch - creates empty files or updates the modification time of existing files.
+
+![alt text](touch.jpg)
 
 cp - Copies files or directories
 
+![alt text](cp.jpg)
+
 pwd - Shows the current directory path
+
+![alt text](pwd.jpg)
 
 whereis - Locates the binary, source, and manual files for a command.
 
