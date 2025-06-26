@@ -151,50 +151,50 @@ The root directory, represented by a single slash /, is the top-level directory 
 
 Commands are instructions you type into the terminal to tell the computer to perform specific tasks like managing files, running programs, or checking system status.
 
-ls - Lists files and directories
+**ls** - Lists files and directories
 
 ![alt text](t.jpg)
 
-whoami - Displays the username of the current user.
+**whoami** - Displays the username of the current user.
 
 ![alt text](whoami.png)
 
-date - Displays the current date and time of the system.
+**date** - Displays the current date and time of the system.
 
 ![alt text](date.png)
 
-cd - Changes the current directory
+**cd** - Changes the current directory
 
 ![alt text](cd.png)
 
-mkdir - Creates a new directory
+**mkdir** - Creates a new directory
 
 ![alt text](mkdir.png)
 
-cat - Displays contents of a file
+**cat** - Displays contents of a file
 
 ![alt text](cat.png)
 
-touch - creates empty files or updates the modification time of existing files.
+**touch** - creates empty files or updates the modification time of existing files.
 
 ![alt text](touch.png)
 
-cp - Copies files or directories
+**cp** - Copies files or directories
 
 ![alt text](cp.png)
 
-pwd - Shows the current directory path
+**pwd** - Shows the current directory path
 
 ![alt text](pwd.png)
 
-whereis - Locates the binary, source, and manual files for a command.
+**whereis** - Locates the binary, source, and manual files for a command.
 
 ![alt text](whereis.png)
 
-whatis - Gives a one-line description of a command or program.
+**whatis** - Gives a one-line description of a command or program.
 
 ![alt text](whatis.png)
 
-mv - Moves or renames files or directories
+**mv** - Moves or renames files or directories
 
 ![alt text](mv.png)
