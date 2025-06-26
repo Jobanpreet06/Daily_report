@@ -147,6 +147,27 @@ The root directory, represented by a single slash /, is the top-level directory 
 
 ![alt text](linux-file-system-tutorial-1.png)
 
+| Directory | Description |
+|-----------|-------------|
+| `/`       | Root directory – the top of the file system |
+| `/bin`    | Essential binary commands (e.g., `ls`, `cp`) |
+| `/boot`   | Boot loader files, including the Linux kernel |
+| `/dev`    | Device files (e.g., hard drives, USBs) |
+| `/etc`    | Configuration files for the system and applications |
+| `/home`   | User home directories (e.g., `/home/user`) |
+| `/lib`    | Shared libraries needed by programs in `/bin` and `/sbin` |
+| `/media`  | Mount point for removable media (e.g., USB drives) |
+| `/mnt`    | Temporary mount point for filesystems |
+| `/opt`    | Optional software and third-party applications |
+| `/proc`   | Virtual filesystem for system information (kernel, processes) |
+| `/root`   | Home directory for the root user |
+| `/run`    | Runtime data for processes |
+| `/sbin`   | System administration binaries (e.g., `shutdown`, `reboot`) |
+| `/srv`    | Data for services like FTP, web servers |
+| `/tmp`    | Temporary files (cleared on reboot) |
+| `/usr`    | User applications and files (e.g., `/usr/bin`, `/usr/lib`) |
+| `/var`    | Variable data (e.g., logs, mail, print spool files) |
+
 **Commands**
 
 Commands are instructions you type into the terminal to tell the computer to perform specific tasks like managing files, running programs, or checking system status.
