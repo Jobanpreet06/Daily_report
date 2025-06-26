@@ -93,3 +93,11 @@ This happens when you turn on the computer from a completely powered-off state. 
 2.Warm Booting (Soft Booting)
 
 This happens when you restart the computer without turning off the power completely. Examples include Windows.
+
+## 2nd day of training
+
+In today's class, we learnt about:
+
+**Kernel**
+
+
