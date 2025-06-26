@@ -150,23 +150,23 @@ The root directory, represented by a single slash /, is the top-level directory 
 | Directory | Description |
 |-----------|-------------|
 | `/`       | Root directory – the top of the file system |
-| `/bin`    | Essential binary commands (e.g., `ls`, `cp`) |
+| `/bin`    | Essential binary commands |
 | `/boot`   | Boot loader files, including the Linux kernel |
-| `/dev`    | Device files (e.g., hard drives, USBs) |
+| `/dev`    | Device files |
 | `/etc`    | Configuration files for the system and applications |
-| `/home`   | User home directories (e.g., `/home/user`) |
-| `/lib`    | Shared libraries needed by programs in `/bin` and `/sbin` |
-| `/media`  | Mount point for removable media (e.g., USB drives) |
+| `/home`   | User home directories |
+| `/lib`    | Shared libraries needed by programs in bin and sbin |
+| `/media`  | Mount point for removable media |
 | `/mnt`    | Temporary mount point for filesystems |
 | `/opt`    | Optional software and third-party applications |
 | `/proc`   | Virtual filesystem for system information (kernel, processes) |
 | `/root`   | Home directory for the root user |
 | `/run`    | Runtime data for processes |
-| `/sbin`   | System administration binaries (e.g., `shutdown`, `reboot`) |
+| `/sbin`   | System administration binaries |
 | `/srv`    | Data for services like FTP, web servers |
 | `/tmp`    | Temporary files (cleared on reboot) |
-| `/usr`    | User applications and files (e.g., `/usr/bin`, `/usr/lib`) |
-| `/var`    | Variable data (e.g., logs, mail, print spool files) |
+| `/usr`    | User applications and files |
+| `/var`    | Variable data |
 
 **Commands**
 
