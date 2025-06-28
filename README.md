@@ -273,7 +273,7 @@ Syntax: chmod +x filename.sh
 
 **+x** changes the file to executable
 
-
+![alt text](chmod.png)
 
 🔹**chmod 444**
 
@@ -284,7 +284,9 @@ It sets the permissions of a file or directory to read-only for everyone:
 
 Syntax: chmod 444 filename.sh
 
+![alt text](chmod444.png)
 
+![alt text](wchmod444.png)
 
 🔹**chmod 644**
 
@@ -298,13 +300,17 @@ It sets the file permissions so that:
   
 Syntax: chmod 644 filename.sh
 
+![alt text](chmod644.png)
 
+![alt text](wchmod644.png)
 
 ▪**echo**
 
 echo is a command used to display text or variables to the screen or redirect them elsewhere (like into a file). It's available in Linux, Unix, Windows CMD, and many programming languages. It can be used for creating a file.
 
 Syntax - echo text > filename.txt
+
+![alt text](echo.png)
 
 **REDIRECTION**
 
@@ -348,6 +354,8 @@ Behind the scenes:
 - Each command runs in its own process.
 - The stdout (standard output) of the first command is connected to the stdin (standard input) of the next command.
 
+![alt text](pipe.png)
+
 🔸**Wildcards**
 
 Wildcards let you match filenames or strings with patterns. They're often used with commands like ls, cp, mv, and rm.
@@ -382,9 +390,18 @@ Syntax - chown [options] new_owner[:new_group] file_or_directory
 
 **To read and display the details of a person using variables**
 
+![alt text](detailsnano.png)
+
+![alt text](details.png)
 
 **Multiplication table of a number**
 
+![alt text](tablenano.png)
+
+![alt text](table.png)
 
 **Comaparing two variables**
 
+![alt text](comparenano.png)
+
+![alt text](compare.png)
