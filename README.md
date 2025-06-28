@@ -224,6 +224,7 @@ Commands are instructions you type into the terminal to tell the computer to per
 
 ## 3rd day of training
 **Bare metal installation**
+
 Bare metal installation refers to installing an operating system (OS), software, or virtualization environment directly on the physical hardware of a server or computer, without any pre-installed OS or virtualization layer.
 
 **VMware and virtual box**
@@ -243,12 +244,14 @@ Dual boot means installing two operating systems (OSes) on the same computer, so
 **Partitioning Schemes**
 
 **MBR**
+
 MBR (Master Boot Record) is an older partitioning system used on hard drives.
 - Works on most old computers (BIOS systems).
 - Can have up to 4 primary partitions.
 - Supports drives up to 2 TB only.
   
 **GPT**
+
 GPT (GUID Partition Table) is a newer and better partitioning system used with modern computers.
 - Supports more than 100 partitions.
 - Works with large hard drives (over 2 TB).
@@ -292,7 +295,7 @@ It sets the file permissions so that:
 - The owner can read and write the file.
 - The group and others can only read the file.
 - No one has execute permission.
-- 
+  
 Syntax: chmod 644 filename.sh
 
 
