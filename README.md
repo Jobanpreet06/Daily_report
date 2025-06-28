@@ -300,7 +300,7 @@ Syntax: chmod 644 filename.sh
 
 
 
-**echo**
+▪**echo**
 
 echo is a command used to display text or variables to the screen or redirect them elsewhere (like into a file). It's available in Linux, Unix, Windows CMD, and many programming languages. It can be used for creating a file.
 
@@ -342,6 +342,7 @@ command1 | command2
 - command2 → takes that output as input
 
 **How Pipes Work**
+
 Behind the scenes:
 
 - Each command runs in its own process.
