@@ -222,3 +222,79 @@ Commands are instructions you type into the terminal to tell the computer to per
 
 ![alt text](mv.png)
 
+## 3rd day of training
+**Bare metal installation**
+Bare metal installation refers to installing an operating system (OS), software, or virtualization environment directly on the physical hardware of a server or computer, without any pre-installed OS or virtualization layer.
+
+**VMware and virtual box**
+
+| Feature           | VMware                              | VirtualBox                          |
+|-------------------|--------------------------------------|--------------------------------------|
+| Cost              | Paid (some free versions)            | Free and open-source                 |
+| Performance       | Faster and more stable               | Slower, good for light use           |
+| Use Case          | Best for professionals and servers   | Great for learning and testing       |
+| Ease of Use       | Very polished                        | Simple and beginner-friendly         |
+| Advanced Features | More enterprise tools                | Basic features                       |
+
+**Dual boot**
+
+Dual boot means installing two operating systems (OSes) on the same computer, so you can choose which one to use when the computer starts.
+
+**Partitioning Schemes**
+
+**MBR**
+MBR (Master Boot Record) is an older partitioning system used on hard drives.
+- Works on most old computers (BIOS systems).
+- Can have up to 4 primary partitions.
+- Supports drives up to 2 TB only.
+  
+**GPT**
+GPT (GUID Partition Table) is a newer and better partitioning system used with modern computers.
+- Supports more than 100 partitions.
+- Works with large hard drives (over 2 TB).
+- Stores multiple copies of data for safety.
+
+**ISO**
+
+An ISO file (or ISO image) is a copy of an entire CD, DVD, or installation disc saved as a single file. It's often used to distribute operating systems or software.
+
+**FILE AND DIRECTORY PERMISSIONS**
+
+Permissions control who can read, write, or execute a file or directory.
+
+🔹**chmod**
+
+chmod stands for change mode — it changes file or directory permissions.
+
+Syntax: chmod +x filename.sh
+
+**+x** changes the file to executable
+
+
+
+🔹**chmod 444**
+
+It sets the permissions of a file or directory to read-only for everyone:
+
+- Owner, Group, and Others can only read the file.
+- No one can modify (write) or run (execute) it.
+
+Syntax: chmod 444 filename.sh
+
+
+
+🔹**chmod 644**
+
+Gives permission only to the owner.
+
+It sets the file permissions so that:
+
+- The owner can read and write the file.
+- The group and others can only read the file.
+- No one has execute permission.
+- 
+Syntax: chmod 644 filename.sh
+
+
+
+**REDIRECTION**
