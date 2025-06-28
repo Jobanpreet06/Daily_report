@@ -328,13 +328,29 @@ Redirection lets you:
 
 Purpose: Sends output to a file (overwrites if it exists).
 
+Example:
+
+ls > files.txt
+
+Saves output of ls to files.txt.
+
 2. Append Output (>>)
     
 Purpose: Sends output to a file without overwriting.
 
+Example:
+
+echo "New line" >> notes.txt
+
 3. Standard Input Redirection (<)
 
 Purpose: Takes input from a file instead of keyboard.
+
+Example:
+
+sort < names.txt
+
+Sorts the contents of names.txt.
 
 **PIPES**
 
@@ -385,8 +401,6 @@ Syntax - chown [options] new_owner[:new_group] file_or_directory
 - new_owner: the username or user ID to become the new owner
 - new_group (optional): the group name or group ID to become the new group owner
 - file_or_directory: the file or directory to change ownership for
-
-
 
 **To read and display the details of a person using variables**
 
