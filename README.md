@@ -284,9 +284,9 @@ It sets the permissions of a file or directory to read-only for everyone:
 
 Syntax: chmod 444 filename.sh
 
-![alt text](chmod444.png)
-
 ![alt text](wchmod444.png)
+
+![alt text](chmod444.png)
 
 🔹**chmod 644**
 
@@ -300,9 +300,9 @@ It sets the file permissions so that:
   
 Syntax: chmod 644 filename.sh
 
-![alt text](chmod644.png)
-
 ![alt text](wchmod644.png)
+
+![alt text](chmod644.png)
 
 ▪**echo**
 
