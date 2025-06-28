@@ -200,14 +200,6 @@ Commands are instructions you type into the terminal to tell the computer to per
 
 ![alt text](touch.png)
 
-**cp** - Copies files or directories
-
-![alt text](cp.png)
-
-**mv** - Moves or renames files or directories
-
-![alt text](mv.png)
-
 **whereis** - Locates the binary, source, and manual files for a command.
 
 ![alt text](whereis.png)
@@ -219,3 +211,14 @@ Commands are instructions you type into the terminal to tell the computer to per
 **pwd** - Shows the current directory path
 
 ![alt text](pwd.png)
+
+**ASSIGNMENT**
+
+**cp** - Copies files or directories
+
+![alt text](cp.png)
+
+**mv** - Moves or renames files or directories
+
+![alt text](mv.png)
+
