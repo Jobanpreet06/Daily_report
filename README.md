@@ -304,7 +304,7 @@ Syntax: chmod 644 filename.sh
 
 ![alt text](chmod644.png)
 
-▪**echo**
+**ECHO**
 
 echo is a command used to display text or variables to the screen or redirect them elsewhere (like into a file). It's available in Linux, Unix, Windows CMD, and many programming languages. It can be used for creating a file.
 
