@@ -300,4 +300,90 @@ Syntax: chmod 644 filename.sh
 
 
 
+**echo**
+
+echo is a command used to display text or variables to the screen or redirect them elsewhere (like into a file). It's available in Linux, Unix, Windows CMD, and many programming languages. It can be used for creating a file.
+
+Syntax - echo text > filename.txt
+
 **REDIRECTION**
+
+Redirection is the process of changing the flow of input or output in computing. It tells a system to send data somewhere else instead of using the default path.
+
+Redirection lets you:
+
+- Take input from a file instead of typing it.
+- Send output to a file instead of the screen.
+- Save error messages separately.
+
+**Types of Redirection**
+
+1. Standard Output Redirection (>)
+
+Purpose: Sends output to a file (overwrites if it exists).
+
+2. Append Output (>>)
+    
+Purpose: Sends output to a file without overwriting.
+
+3. Standard Input Redirection (<)
+
+Purpose: Takes input from a file instead of keyboard.
+
+**PIPES**
+
+Pipes (|) in Linux are used to connect the output of one command directly into the input of another — creating powerful command chains.
+
+**Basic Syntax**
+
+command1 | command2
+
+- command1 → produces output
+- command2 → takes that output as input
+
+**How Pipes Work**
+Behind the scenes:
+
+- Each command runs in its own process.
+- The stdout (standard output) of the first command is connected to the stdin (standard input) of the next command.
+
+🔸**Wildcards**
+
+Wildcards let you match filenames or strings with patterns. They're often used with commands like ls, cp, mv, and rm.
+
+Examples - *.sh, file?.txt
+
+🔸**Quoting**
+
+Quoting controls how the shell interprets special characters (like $, *, !, &, etc.).
+
+Examples - 'literal', "$var"
+
+🔸**Escape Characters**
+
+Escape characters let you prevent special interpretation of characters.
+
+Examples - \*, \$, \"
+
+**ASSIGNMENT**
+
+**chown**
+
+The chown command in Linux is used to change the ownership of files or directories. It lets you set the user and/or group that owns a file.
+
+Syntax - chown [options] new_owner[:new_group] file_or_directory
+
+- new_owner: the username or user ID to become the new owner
+- new_group (optional): the group name or group ID to become the new group owner
+- file_or_directory: the file or directory to change ownership for
+
+
+
+**To read and display the details of a person using variables**
+
+
+**Multiplication table of a number**
+
+
+**Comaparing two variables**
+
