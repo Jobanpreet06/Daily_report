@@ -408,7 +408,7 @@ Syntax - chown [options] new_owner[:new_group] file_or_directory
 
 ![alt text](details.png)
 
-**Multiplication table of a number**
+**Multiplication table of any number**
 
 ![alt text](tablenano.png)
 
