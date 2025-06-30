@@ -488,7 +488,7 @@ The motherboard is the main printed circuit board (PCB) inside a computer that c
 
 ![alt text](hardware.jpg)
   
-**
+**Parts of a motherboard**
 
 | Part                 | Description & Function                                                                                   |
 |----------------------|--------------------------------------------------------------------------------------------------------|
