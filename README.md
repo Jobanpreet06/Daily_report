@@ -488,3 +488,18 @@ The motherboard is the main printed circuit board (PCB) inside a computer that c
 
 ![alt text](hardware.jpg)
   
+**
+
+| Part                 | Description & Function                                                                                   |
+|----------------------|--------------------------------------------------------------------------------------------------------|
+| **CPU Socket**       | The slot where the Central Processing Unit (CPU) is installed. Connects the processor to the motherboard and provides electrical contacts for data and power. Different CPUs require different socket types (e.g., LGA 1200, AM4). |
+| **RAM Slots (DIMM Slots)** | Slots where memory modules (RAM) are installed. The number and type (DDR3, DDR4, DDR5) determine the system’s memory capacity and speed. These slots connect the RAM directly to the CPU via the memory controller. |
+| **Chipset**          | Manages communication between the CPU, RAM, storage, and peripherals. Controls data flow and connectivity features. Modern chipsets combine Northbridge and Southbridge functions. |
+| **Expansion Slots (PCIe Slots)** | Slots for adding expansion cards like graphics cards (GPUs), sound cards, network cards, or USB controllers. PCI Express (PCIe) is the standard interface, with different sizes (x1, x4, x8, x16) affecting bandwidth. |
+| **Storage Connectors** | Ports where storage devices like HDDs and SSDs connect. Common types include SATA ports and M.2 slots for NVMe SSDs offering faster speeds. |
+| **Power Connectors** | Connectors linking the motherboard to the power supply unit (PSU). Includes 24-pin main power and 4/8-pin CPU power connectors. |
+| **BIOS/UEFI Chip**   | Memory chip containing firmware (BIOS or UEFI) that initializes hardware during startup and provides system configuration interface. |
+| **CMOS Battery**     | Small battery powering CMOS memory storing BIOS settings when PC is off. Preserves system clock and configuration data. |
+| **Audio Chip/Ports** | Integrated audio processing chip and connectors for sound input/output, including headphone and microphone jacks. |
+| **Network Interface (Ethernet Port)** | Onboard network controller and port for wired internet connections. Some motherboards include built-in Wi-Fi modules. |
+| **Cooling Fan Headers** | Connectors for system and CPU fans, allowing motherboard control over fan speeds for temperature management. |
