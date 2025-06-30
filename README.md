@@ -378,17 +378,26 @@ Wildcards let you match filenames or strings with patterns. They're often used w
 
 Examples - *.sh, file?.txt
 
-🔸**Quoting**
+| Wildcard | Meaning                      | Example                      |
+|----------|------------------------------|------------------------------|
+| `*`      | Matches zero or more characters | `*.txt` matches all `.txt` files |
+| `?`      | Matches exactly one character | `file?.txt` matches `file1.txt`, `fileA.txt` |
+| `[abc]`  | Matches one character listed  | `file[123].txt` matches `file1.txt`, `file2.txt`, or `file3.txt` |
 
-Quoting controls how the shell interprets special characters (like $, *, !, &, etc.).
+**FILE COMPRESSION**
 
-Examples - 'literal', "$var"
+File compression is the process of reducing the size of a file by encoding its data more efficiently. This helps save disk space and makes it faster to transfer files over networks.
 
-🔸**Escape Characters**
+**How It Works:**
 
-Escape characters let you prevent special interpretation of characters.
+- Removing Redundancy: Compression algorithms look for patterns or repeated data in the file and represent them in a shorter way.
+- Encoding Data: Instead of storing repeated data multiple times, the algorithm stores it once and uses references, codes, or symbols to represent repeated parts.
 
-Examples - \*, \$, \"
+| Command                 | Syntax                     | Description                                                      |
+|-------------------------|----------------------------|------------------------------------------------------------------|
+| Compress file           | `gzip file.txt`             | Compress `file.txt` → creates `file.txt.gz`                      |
+| Decompress file         | `gunzip file.txt.gz`        | Decompress `file.txt.gz` → restores `file.txt`                   |
+| Compress & keep original| `gzip -k file.txt`          | Compress but **keep** original file                              |
 
 **ASSIGNMENT**
 
@@ -419,3 +428,34 @@ Syntax - chown [options] new_owner[:new_group] file_or_directory
 ![alt text](comparenano.png)
 
 ![alt text](compare.png)
+
+🔸**Escape Characters**
+
+Escape characters let you prevent special interpretation of characters.
+
+Examples - \*, \$, \"
+
+| Escape Sequence | Meaning                           | Example                                           |
+|-----------------|---------------------------------|---------------------------------------------------|
+| `\`             | Escape next character literally | `rm file\*.txt` deletes a file literally named `file*.txt` |
+| `\\`            | Literal backslash                | `echo "C:\\Users"` outputs `C:\Users`             |
+| `\n`            | Newline (in scripts or echo -e) | `echo -e "Hello\nWorld"` prints on two lines      |
+| `\t`            | Tab (in scripts or echo -e)      | `echo -e "Name\tAge"` outputs a tab between words |
+
+🔸**Quoting**
+
+Quoting controls how the shell interprets special characters (like $, *, !, &, etc.).
+
+Quoting is enclosing text in single (') or double (") quotes to tell the shell to treat the enclosed characters literally or with some rules, preventing special characters (like wildcards, spaces, $, !, etc.) from being interpreted by the shell.
+
+Examples - 'literal', "$var"
+
+| Quote Type          | Description                                                    | Example                             |
+|---------------------|----------------------------------------------------------------|-----------------------------------|
+| Single quotes '...'  | Preserve the literal value of all characters inside. No expansion or interpretation happens. | 'file*.txt' — wildcard * treated literally, no matching |
+| Double quotes "..."  | Preserve literal characters except $, `, and \. Variables and command substitution still work. | "file*.txt" — wildcard not expanded, but $VAR will be replaced |
+| No quotes           | Shell interprets special characters like wildcards, variables, etc. | file*.txt — wildcard expanded to match files |
+
+
+## 4th Day of training
+## HARDWARE
