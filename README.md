@@ -459,3 +459,32 @@ Examples - 'literal', "$var"
 
 ## 4th Day of training
 ## HARDWARE
+
+**What is Hardware?**
+
+Hardware refers to the physical components of a computer system or electronic device. These are the tangible parts you can see and touch.
+
+**Common hardware components**
+
+- Processor
+- RAM (Memory)
+- Storage Devices (HDD, SSD)
+- Motherboard
+- Power Supply Unit (PSU)
+- Input Devices (Keyboard, Mouse)
+- Output Devices (Monitor, Printer)
+- Graphics Card (GPU)
+
+**Motherboard**
+
+The motherboard is the main printed circuit board (PCB) inside a computer that connects and allows communication between all the hardware components.
+
+**Key Functions:**
+
+- Connects Components: Links CPU, RAM, storage devices, graphics cards, and peripherals.
+- Power Distribution: Supplies power to components through power connectors.
+- Communication Hub: Enables data transfer between CPU, memory, and other devices via buses and chipsets.
+- Houses Slots and Ports: Contains slots for RAM, PCIe cards, and ports for USB, audio, network, etc.
+
+![alt text](hardware.jpg)
+  
