@@ -466,14 +466,17 @@ Hardware refers to the physical components of a computer system or electronic de
 
 **Common hardware components**
 
-- Processor
-- RAM (Memory)
-- Storage Devices (HDD, SSD)
-- Motherboard
-- Power Supply Unit (PSU)
-- Input Devices (Keyboard, Mouse)
-- Output Devices (Monitor, Printer)
-- Graphics Card (GPU)
+| Hardware Type       | Description                                         | Examples                          |
+|---------------------|-----------------------------------------------------|----------------------------------|
+| Input Devices       | Devices that allow users to input data into a computer | Keyboard, Mouse, Scanner, Microphone |
+| Output Devices      | Devices that output data from the computer to the user | Monitor, Printer, Speakers       |
+| Processing Units    | Components that process data and execute instructions | CPU (Central Processing Unit), GPU (Graphics Processing Unit) |
+| Storage Devices     | Devices used to store data permanently or temporarily | Hard Drive (HDD), Solid State Drive (SSD), USB Flash Drive |
+| Memory              | Temporary storage used by the CPU to hold data and instructions | RAM (Random Access Memory), Cache |
+| Motherboard         | The main circuit board that connects all hardware components | Motherboard                     |
+| Power Supply Units  | Provides electrical power to all components          | PSU (Power Supply Unit)           |
+| Networking Hardware | Devices that connect computers and enable communication | Network Interface Card (NIC), Router, Switch |
+
 
 **Motherboard**
 
@@ -503,3 +506,5 @@ The motherboard is the main printed circuit board (PCB) inside a computer that c
 | **Audio Chip/Ports** | Integrated audio processing chip and connectors for sound input/output, including headphone and microphone jacks. |
 | **Network Interface (Ethernet Port)** | Onboard network controller and port for wired internet connections. Some motherboards include built-in Wi-Fi modules. |
 | **Cooling Fan Headers** | Connectors for system and CPU fans, allowing motherboard control over fan speeds for temperature management. |
+
+![alt text](cpu.jpg)
