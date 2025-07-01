@@ -567,14 +567,10 @@ GPU stands for **Graphics Processing Unit**. It’s a special processor designed
 
 Partitioning of Hard Disk means dividing a physical hard disk into separate sections called partitions. Each partition works like a separate drive, allowing you to organize data better, install multiple operating systems, or separate system files from personal files.
 
-| Partition Type        | Description                                                      | Purpose & Use                                               | Limitations                         |
-|-----------------------|------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------|
-| **Extended Partition** | A special type of partition that acts as a container for logical partitions. | Allows overcoming the 4-primary partition limit on MBR disks. | Only one extended partition allowed per disk. |
-|                       | Does **not** store data directly.                               | Holds logical partitions inside it.                        | Cannot be used to store files directly. |
-|                       | Created after primary partitions are used up.                   | Helps organize more partitions beyond the primary limit.  | Not recognized as a separate drive letter by OS. |
-| **Logical Partition**  | Partitions created inside the extended partition.                | Used to store data, install programs, or OSes separately. | Can be many logical partitions inside one extended partition. |
-|                       | Functions like a normal partition (has a drive letter).          | Helps better organize data and separate OS/applications.  | Limited by size of extended partition. |
-|                       | Can be formatted with any file system supported by OS.          | Acts as independent drives to the user and system.         | Performance similar to primary partitions. |
+| Partition Type       | Description                                                   | Limitations                      |
+|----------------------|---------------------------------------------------------------|---------------------------------|
+| **Extended Partition**| A special partition that can hold multiple logical partitions.| Only one extended partition per disk. |
+| **Logical Partition** | Partitions created inside the extended partition.             | Allows more than 4 partitions on a disk. |
 
 **Shortcut key for Help is F11**
 
