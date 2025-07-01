@@ -508,3 +508,191 @@ The motherboard is the main printed circuit board (PCB) inside a computer that c
 | **Cooling Fan Headers** | Connectors for system and CPU fans, allowing motherboard control over fan speeds for temperature management. |
 
 ![alt text](cpu.jpg)
+
+**WHAT IS CACHE MEMORY?**
+
+Cache memory is a small, very fast memory inside the CPU that stores data and instructions the CPU uses often. It helps the CPU work faster by quickly giving it the information it needs without waiting for slower main memory (RAM).
+
+**HOW RAM IS DIFFERENT FROM CACHE MEMORY**
+
+| Feature           | RAM (Random Access Memory)                             | Cache Memory                                     |
+|-------------------|--------------------------------------------------------|--------------------------------------------------|
+| **Speed**         | Slower than cache memory                               | Much faster than RAM                             |
+| **Location**      | On the motherboard                                     | On or very close to the CPU                      |
+| **Purpose**       | Stores data and programs currently in use              | Stores frequently accessed data/instructions     |
+| **Size**          | Larger (e.g., 8GB, 16GB)                               | Smaller (KB to a few MB)                         |
+| **Cost**          | Cheaper per MB/GB                                      | More expensive per MB                            |
+| **Access Time**   | Higher (in nanoseconds)                                | Very low (a few nanoseconds)                     |
+| **Volatility**    | Volatile (data lost when power is off)                 | Volatile as well                                 |
+| **Managed By**    | Controlled by the operating system                     | Managed automatically by the CPU hardware        |
+
+**HOW RAM IS DIFFERENT FROM HARD DISK**
+
+| Feature           | RAM (Random Access Memory)                            | Hard Disk (HDD/SSD)                              |
+|-------------------|-------------------------------------------------------|--------------------------------------------------|
+| **Speed**         | Much faster                                            | Slower compared to RAM                           |
+| **Location**      | On the motherboard                                     | Connected via SATA/NVMe interface                |
+| **Purpose**       | Temporarily stores data currently in use              | Permanently stores OS, software, and files       |
+| **Size**          | Smaller (typically 8GB to 64GB)                       | Larger (typically 256GB to several TBs)          |
+| **Cost**          | More expensive per GB                                 | Less expensive per GB                            |
+| **Access Time**   | Very low latency (nanoseconds)                        | Higher latency (microseconds to milliseconds)    |
+| **Volatility**    | Volatile (loses data when power is off)              | Non-volatile (retains data without power)        |
+| **Data Retention**| Temporary                                              | Permanent                                        |
+| **Managed By**    | Managed by the operating system                       | Managed by file system and OS                    |
+
+**REGISTERS**
+
+Registers are tiny, super-fast storage locations inside the CPU. They hold data and instructions that the CPU is currently working on. Registers are the fastest type of memory because they are directly part of the processor.
+
+- Very small storage inside the CPU
+- Store data the CPU needs immediately
+- Faster than cache and RAM
+- Used to perform calculations and operations quickly
+
+## 5th day of training
+## PC & Network Troubleshooting
+
+**GPU** 
+
+GPU stands for **Graphics Processing Unit**. It’s a special processor designed to handle graphics and images, like in video games, videos, and 3D rendering.
+
+- Works alongside the CPU
+- Great at doing many tasks at once (parallel processing)
+- Speeds up drawing images, videos, and animations
+- Also used for AI, machine learning, and scientific calculations
+
+**Common issues and Problems in PC**
+
+**Partitioning of Hard Disk**
+
+Partitioning of Hard Disk means dividing a physical hard disk into separate sections called partitions. Each partition works like a separate drive, allowing you to organize data better, install multiple operating systems, or separate system files from personal files.
+
+| Partition Type        | Description                                                      | Purpose & Use                                               | Limitations                         |
+|-----------------------|------------------------------------------------------------------|-------------------------------------------------------------|-----------------------------------|
+| **Extended Partition** | A special type of partition that acts as a container for logical partitions. | Allows overcoming the 4-primary partition limit on MBR disks. | Only one extended partition allowed per disk. |
+|                       | Does **not** store data directly.                               | Holds logical partitions inside it.                        | Cannot be used to store files directly. |
+|                       | Created after primary partitions are used up.                   | Helps organize more partitions beyond the primary limit.  | Not recognized as a separate drive letter by OS. |
+| **Logical Partition**  | Partitions created inside the extended partition.                | Used to store data, install programs, or OSes separately. | Can be many logical partitions inside one extended partition. |
+|                       | Functions like a normal partition (has a drive letter).          | Helps better organize data and separate OS/applications.  | Limited by size of extended partition. |
+|                       | Can be formatted with any file system supported by OS.          | Acts as independent drives to the user and system.         | Performance similar to primary partitions. |
+
+**Shortcut key for Help is F11**
+
+**CAUSES AND FIXES OF SLOW SPEED OF PC**
+
+| Cause                              | Description                                      | Fix / Solution                                  |
+|-----------------------------------|------------------------------------------------|------------------------------------------------|
+| **Too Many Startup Programs**     | Programs launching automatically slow boot time| Disable unnecessary startup apps via Task Manager or System Settings |
+| **Low Disk Space**                 | Hard drive almost full, affecting performance  | Free up space by deleting unwanted files or uninstalling apps |
+| **Malware or Virus**               | Malicious software consumes resources          | Run a full antivirus scan and remove threats   |
+| **Outdated Software or Drivers**  | Old versions can cause slowdowns or conflicts  | Update OS, drivers, and software regularly      |
+| **Too Many Background Processes** | Multiple apps running simultaneously            | Close unnecessary programs via Task Manager    |
+| **Fragmented Hard Drive (HDD only)** | Files scattered across disk, slowing access   | Run disk defragmentation tool (not needed for SSD) |
+| **Insufficient RAM**               | Not enough memory for running apps               | Upgrade RAM or close unused applications        |
+| **Overheating**                   | CPU/GPU throttling due to heat                   | Clean fans, improve cooling, or replace thermal paste |
+| **Old Hardware**                  | Aging components slower than current software demands | Upgrade hardware components (CPU, RAM, SSD)    |
+
+**SYSTEM SCANNING AND DEFRAGMENTATION**
+
+**Optimization**
+
+Optimization means making your computer or software work faster and more efficiently. It involves cleaning up unnecessary files, fixing errors, managing startup programs, and adjusting settings so everything runs smoothly.
+
+By optimizing your system, you can improve speed, reduce crashes, and get better overall performance.
+
+**System Scanning** is the process where your computer checks itself for errors, malware, or other issues. It helps find and fix problems like viruses, corrupted files, or system glitches, keeping your PC safe and running smoothly.
+
+**Defragmentation** is the process of organizing files on your hard drive so they are stored in one place instead of scattered around. This makes your computer read and write files faster, improving overall performance. Note that defragmentation is useful for traditional hard drives (HDDs) but not needed for solid-state drives (SSDs).
+
+**Scheduled Optimization**
+
+Scheduled Optimization is setting your computer or device to automatically perform maintenance tasks at regular times—like cleaning up junk files, defragmenting the disk, or scanning for errors—without you having to do it manually.
+
+This helps keep your system running smoothly and fast without interrupting your work.
+
+**Why Install an Antivirus Scanner?**
+
+- Protects Your Computer: Detects and removes viruses, malware, spyware, and other harmful software that can damage your files or system.
+- Prevents Data Theft: Stops hackers and malicious software from stealing your personal information like passwords, bank details, and documents.
+- Keeps System Running Smoothly: Removes unwanted programs that slow down your computer or cause crashes.
+- Safeguards Against New Threats: Regular updates help protect you from the latest viruses and cyberattacks.
+
+**Printer Problems and Solutions**
+
+| Problem                     | Cause                                    | Solution                                           |
+|-----------------------------|------------------------------------------|--------------------------------------------------|
+| **Printer Not Printing**     | Printer offline or not connected         | Check cables/connections, turn on printer, set as default device |
+| **Paper Jam**                | Paper stuck inside printer                | Open printer and carefully remove jammed paper   |
+| **Poor Print Quality**       | Low ink/toner, dirty print head           | Replace ink/toner, clean the print head           |
+| **Printer is Slow**          | High-resolution settings or busy print queue | Lower print quality settings, clear print queue   |
+| **Driver Issues**            | Outdated or missing drivers                | Update or reinstall printer drivers                |
+| **Unable to Connect Wireless**| Wi-Fi or network problems                  | Restart router, reconnect printer to network      |
+| **Error Messages on Printer**| Hardware or software fault                  | Check error code in manual or reset printer       |
+| **Blank Pages Printed**      | Empty ink cartridge or clogged nozzles    | Replace cartridge or clean nozzles                 |
+
+**Benefits of Updates**
+
+- Improved Security: Updates patch vulnerabilities that hackers could exploit.  
+- Bug Fixes: They fix software errors and glitches for smoother performance.  
+- New Features: Updates often add new tools and functionalities.  
+- Better Compatibility: Ensure your software works well with new hardware and other programs.  
+- Performance Enhancements: Updates can speed up software and make it more efficient.  
+- Stability Improvements: Reduce crashes and unexpected errors.  
+- Compliance: Keeps software up to date with industry standards and regulations.  
+
+## PC Hardware Troubleshooting
+
+**Blue Screen of Death (BSOD)**
+
+Blue Screen of Death (BSOD) and Why It Happens
+BSOD is an error screen shown by Windows when the system encounters a serious problem it cannot fix on its own. It stops everything to prevent damage.
+
+**Why BSOD happens:**
+
+- Faulty or incompatible hardware (like bad RAM or hard drives)
+- Driver problems (corrupted or outdated drivers)
+- Software bugs or corrupted system files
+- Overheating or hardware failures
+- Malware or virus infections
+- Conflicts between software and hardware
+
+When BSOD occurs, Windows shows an error code to help identify the problem.
+
+**System crash analysis**
+
+System crash analysis is the process of investigating why a computer suddenly stops working or restarts unexpectedly. The goal is to find the cause and fix it to prevent future crashes.
+
+**How it’s done:**
+
+- Check error messages or codes shown during the crash.
+- Review system logs using tools like Event Viewer.
+- Analyze crash dump files with utilities such as BlueScreenView or WinDbg.
+- Look for recent changes in hardware, software, or drivers that might have caused the crash.
+- Run hardware diagnostics to check for failing components.
+  
+**Fixes usually involve:**
+
+- Updating or rolling back drivers.
+- Removing problematic software.
+- Repairing corrupted system files.
+- Replacing faulty hardware.
+
+**ASSIGNMENT**
+
+**BIOS/UEFI Settings and POST Errors**
+
+**BIOS/UEFI Settings**
+- **BIOS (Basic Input/Output System)** and **UEFI (Unified Extensible Firmware Interface)** are firmware interfaces between your computer’s hardware and operating system.
+- They initialize hardware components during startup and provide runtime services for the OS.
+- BIOS is older; UEFI is newer with more features like faster boot, secure boot, and support for large drives.
+- Users can access BIOS/UEFI to configure system settings such as boot order, hardware settings, and security options.
+
+**POST Errors**
+- **POST (Power-On Self-Test)** is a diagnostic test run by BIOS/UEFI at startup to check hardware health.
+- If POST detects issues, it shows error messages or beep codes.
+- Common POST errors include:
+  - **No display:** Could be GPU or monitor issue.
+  - **Beep codes:** Indicate hardware faults (RAM, CPU, GPU).
+  - **Error messages:** Like “Keyboard error” or “Boot device not found.”
+- Troubleshooting POST errors involves checking hardware connections, reseating components, or replacing faulty parts.
+
