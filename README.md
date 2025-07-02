@@ -807,7 +807,9 @@ It helps you recover your files if something bad happens, like your computer bre
 
 - Copy files manually to an external hard drive or USB
 - Use built-in backup tools like:
+  
       Windows: File History or Backup and Restore
+  
       Mac: Time Machine
 - Use cloud services like Google Drive, OneDrive, or Dropbox
 
