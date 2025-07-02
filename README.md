@@ -791,4 +791,28 @@ They can come from fake websites, email attachments, pop-up ads, USB drives, or�
 | New programs appear you didn’t install| Restart computer normally after cleaning            |
 | Friends get emails/messages from you  | Keep antivirus updated and avoid suspicious links   |
 
-**
+**What is a Backup?**
+
+A backup is a copy of your important files and data saved somewhere safe — like on another drive or in the cloud.
+
+It helps you recover your files if something bad happens, like your computer breaking or a virus deleting data.
+
+**Why Backup?**
+
+- Protect important photos, documents, and files
+- Restore your data if your computer crashes
+- Avoid losing work or memories
+
+**How to Backup**
+
+- Copy files manually to an external hard drive or USB
+- Use built-in backup tools like:
+      Windows: File History or Backup and Restore
+      Mac: Time Machine
+- Use cloud services like Google Drive, OneDrive, or Dropbox
+
+**Backup Tips**
+
+- Backup regularly (once a week or more)
+- Keep backups in a safe place
+- Test your backups sometimes to make sure they work
