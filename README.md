@@ -678,12 +678,14 @@ System crash analysis is the process of investigating why a computer suddenly st
 **BIOS/UEFI Settings and POST Errors**
 
 **BIOS/UEFI Settings**
+
 - **BIOS (Basic Input/Output System)** and **UEFI (Unified Extensible Firmware Interface)** are firmware interfaces between your computer’s hardware and operating system.
 - They initialize hardware components during startup and provide runtime services for the OS.
 - BIOS is older; UEFI is newer with more features like faster boot, secure boot, and support for large drives.
 - Users can access BIOS/UEFI to configure system settings such as boot order, hardware settings, and security options.
 
 **POST Errors**
+
 - **POST (Power-On Self-Test)** is a diagnostic test run by BIOS/UEFI at startup to check hardware health.
 - If POST detects issues, it shows error messages or beep codes.
 - Common POST errors include:
@@ -692,3 +694,101 @@ System crash analysis is the process of investigating why a computer suddenly st
   - **Error messages:** Like “Keyboard error” or “Boot device not found.”
 - Troubleshooting POST errors involves checking hardware connections, reseating components, or replacing faulty parts.
 
+# 6th day of training
+
+**What is Safe Mode?**
+
+Safe Mode is a special way to start your computer with only the most important programs and drivers running.
+It helps you fix problems by stopping any extra software that might be causing trouble, like viruses or faulty programs.
+
+**Why Use Safe Mode?**
+
+- To remove viruses or malware that won’t let you delete them normally
+- To uninstall software or drivers causing crashes
+- To fix errors when your computer won’t start properly
+
+**How to Start Safe Mode (Windows)**
+
+- Hold Shift and click Restart on your computer.
+- Choose Troubleshoot > Advanced Options > Startup Settings > Click Restart.
+- Press 4 (for Safe Mode) or 5 (for Safe Mode with Internet).
+
+**What Are Recovery Tools?**
+
+Recovery Tools help fix your computer if it won’t start properly or if something is broken.
+Recovery Tools are special tools in Windows that help you fix bigger problems — like when your PC won’t start, or system files are broken.
+
+**Common Recovery Tools:**
+
+- Startup Repair – Fixes boot problems.
+- System Restore – Goes back to an earlier time when your PC worked.
+- Command Prompt – Lets you type commands to fix problems.
+- Reset This PC – Reinstalls Windows (you can keep or remove your files).
+
+**How to Access Recovery Tools**
+
+**Windows:**
+
+Restart > Hold Shift + click Restart > Choose Troubleshoot or
+
+Restart and press F8 or F11 on some PCs
+
+**Mac:**
+
+Restart and hold Command + R during boot
+
+**What is OS Repair?**
+
+OS Repair means fixing the software that runs your computer — called the Operating System (OS). For most PCs, this is Windows.
+
+When the OS has problems (like crashes, errors, or slow performance), OS repair tools help find and fix these problems so your computer works well again.
+
+**Common Methods:**
+
+    SFC (System File Checker)
+    
+    sfc /scannow → Scans & fixes corrupted system files.
+
+    DISM Tool (Deployment Image Servicing and Management)
+    
+    DISM /Online /Cleanup-Image /RestoreHealth → Repairs Windows image.
+
+    Windows Recovery Environment (WinRE)
+    
+    Access through boot menu or recovery drive.
+
+**Why might you need OS repair?**
+
+- Your computer is freezing or crashing
+- You get error messages or blue screens
+- Windows doesn’t start properly
+- Programs don’t open or keep closing
+- Files or settings are missing or broken
+
+**How does OS repair work?**
+
+- It checks important system files and replaces damaged or missing ones.
+- It can restore Windows to an earlier, healthy state.
+- It can fix startup problems so Windows boots correctly.
+- If needed, it can reset or reinstall Windows without deleting your personal files.
+
+**Virus malware**
+
+Viruses and malware are harmful programs that can mess up your computer, steal your information, or slow everything down.
+
+They can come from fake websites, email attachments, pop-up ads, USB drives, or bad software.
+
+**Symptoms and basic removal steps**
+
+| Virus/Malware Symptoms                 | Basic Removal Steps                                 |
+|--------------------------------------|----------------------------------------------------|
+| Computer is very slow or freezes      | Restart computer in *Safe Mode*                   |
+| Many pop-up ads appear                | Uninstall strange or unknown programs               |
+| Programs crash or close by themselves | Run a full scan with antivirus (e.g., Malwarebytes)|
+| Browser homepage changes or redirects | Clear browser history and reset browser settings    |
+| Files or folders missing or strange   | Delete temporary files (temp, %temp%, prefetch)|
+| Antivirus turns off or won’t update   | Check and disable suspicious startup programs       |
+| New programs appear you didn’t install| Restart computer normally after cleaning            |
+| Friends get emails/messages from you  | Keep antivirus updated and avoid suspicious links   |
+
+**
