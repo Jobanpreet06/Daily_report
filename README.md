@@ -828,3 +828,34 @@ It helps you recover your files if something bad happens, like your computer bre
 - Backup regularly (once a week or more)
 - Keep backups in a safe place
 - Test your backups sometimes to make sure they work
+
+**What is an RJ45 Connector?**
+
+An RJ45 connector is a plastic plug used to connect Ethernet cables to computers, routers, or switches.
+
+It’s the most common type of connector for network cables.
+
+**What Does It Look Like?**
+
+- It looks like a bigger version of a phone plug (RJ11).
+- Has 8 metal pins inside that connect to 8 wires inside the Ethernet cable.
+
+**What Does It Do?**
+
+- It allows devices to connect to a wired network.
+- Sends data between your computer and other devices over the network.
+
+**How Is It Used?**
+
+- You crimp (attach) an RJ45 connector onto the end of an Ethernet cable.
+- Then plug it into the Ethernet port on your device.
+
+**What is a Crimping Tool?**
+
+A crimping tool is a special hand tool used to attach RJ45 connectors (the plugs) to the ends of Ethernet cables.
+
+It “crimps” or presses the metal pins inside the connector onto the wires inside the cable to make a strong, secure connection.
+
+**RJ connector wire color combinations**
+
+![alt text](hardware.jpg)
