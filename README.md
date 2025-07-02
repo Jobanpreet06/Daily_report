@@ -791,6 +791,16 @@ They can come from fake websites, email attachments, pop-up ads, USB drives, or�
 | New programs appear you didn’t install| Restart computer normally after cleaning            |
 | Friends get emails/messages from you  | Keep antivirus updated and avoid suspicious links   |
 
+**What Are Plug-ins?**
+
+Plug-ins are small software add-ons that you can install to add new features or functions to a program or app.
+
+**Where Are Plug-ins Used?**
+
+- Web browsers (like Chrome or Firefox) use plug-ins or extensions to block ads, translate pages, or play videos.
+- Photo or video editors use plug-ins to add new effects or filters.
+- Music players or games can use plug-ins for extra sounds or tools.
+
 **What is a Backup?**
 
 A backup is a copy of your important files and data saved somewhere safe — like on another drive or in the cloud.
