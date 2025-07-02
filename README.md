@@ -850,6 +850,12 @@ It’s the most common type of connector for network cables.
 - You crimp (attach) an RJ45 connector onto the end of an Ethernet cable.
 - Then plug it into the Ethernet port on your device.
 
+**What is an Ethernet Cable?**
+
+An Ethernet cable is a wire that connects your computer or device to a router, modem, or network switch.
+
+It helps devices talk to each other and access the internet.
+
 **What is a Crimping Tool?**
 
 A crimping tool is a special hand tool used to attach RJ45 connectors (the plugs) to the ends of Ethernet cables.
@@ -858,4 +864,4 @@ It “crimps” or presses the metal pins inside the connector onto the wires in
 
 **RJ connector wire color combinations**
 
-![alt text](hardware.jpg)
+![alt text](colorrj.png)
