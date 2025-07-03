@@ -1048,3 +1048,49 @@ Example: For subnet `192.168.1.0/24`, broadcast IP is `192.168.1.255`.
 | Network IP (Subnet 1)| 192.168.1.0             |
 | Broadcast IP (Subnet 1)| 192.168.1.63           |
 
+**ASSIGNMENT**
+
+**Broadcast, Multicast, Unicast** 
+
+| Feature              | Unicast                                          | Broadcast                                         | Multicast                                         |
+|----------------------|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| *Definition*       | One-to-one communication                          | One-to-all communication                          | One-to-many communication                         |
+| *Recipients*       | Single specific device                            | All devices on the network                         | A specific group of devices that joined the group|
+| *Efficiency*       | Efficient, only one receiver                      | Inefficient, all devices receive data             | Efficient, only interested receivers get data    |
+| *Use Case Examples*| Web browsing, file transfer, email               | ARP requests, DHCP discovery                       | IPTV, video conferencing, stock ticker updates   |
+| *IP Address Range* | Any unicast IP (e.g., 192.168.1.10)            | 255.255.255.255 (IPv4 broadcast)                 | 224.0.0.0 – 239.255.255.255 (IPv4 multicast) |
+| *MAC Address*      | Device’s unique MAC address                        | FF:FF:FF:FF:FF:FF (broadcast)                    | Starts with 01:00:5E (IPv4 multicast)           |
+
+**MAC Address**
+
+A MAC address (short for Media Access Control address) is a unique number given to every device that connects to a network (like your phone, laptop, or Wi-Fi router).
+
+**Example:**
+
+A MAC address looks like this:
+
+    00:1A:2B:3C:4D:5E
+
+Each device has its own MAC address, and it's usually built into the hardware (like the Wi-Fi card).
+
+**What is DNS?**
+
+- DNS stands for Domain Name System.
+- It’s like the phonebook of the internet.
+- It translates website names (like google.com) into IP addresses (like 172.217.10.46) that computers use to find each other.
+
+**Why do we need DNS?**
+
+- Humans find it easier to remember names like facebook.com than long numbers (IP addresses).
+- Computers need IP addresses to communicate.
+- DNS helps bridge that gap by translating names into numbers instantly
+
+**Default Gateway**
+
+A default gateway is like the door your device uses to go outside your local network (like your home Wi-Fi) to reach the internet or other networks.
+
+**How it Works?**
+
+- Your computer wants to go to Google.
+- It sends the request to the default gateway.
+- The gateway/router sends it to the internet to find Google.
