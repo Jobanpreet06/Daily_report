@@ -957,7 +957,7 @@ A network is a group of two or more computers or devices connected together so t
   - Decimal `168` = Binary `10101000`  
   - Decimal `1` = Binary `00000001`
 
-**Classful Addressing**
+**CLASSFUL ADDRESSING**
 
 Classful addressing is an early way of dividing IPv4 addresses into fixed categories called classes based on the first few bits of the address.
 
@@ -981,11 +981,11 @@ Prefix: Another name for the network portion of the IP address. Often expressed 
 
 Suffix: Refers to the host portion of the IP address — the bits left over after the prefix that identify the device.
 
-*In clasful addressing, address space is divided into 5 classes: A, B, C, D, E. Each occupies some part of address space.
+*In clasful addressing, address space is divided into 5 classes: A, B, C, D, E. Each occupies some part of address space.*
 
 ![alt text](ip.jpg)
 
-**Subnetting**
+**SUBNETTING**
 
 Subnetting is the process of dividing a larger IP network into smaller, more manageable subnetworks (subnets).
 
@@ -999,7 +999,7 @@ Subnetting is the process of dividing a larger IP network into smaller, more man
 | D     | 224.0.0.0 – 239.255.255.255| 1110          | N/A                   | N/A                | N/A              | Reserved for multicast addressing, allowing data to be sent to multiple devices simultaneously.    |
 | E     | 240.0.0.0 – 255.255.255.255| 1111          | N/A                   | N/A                | N/A              | Reserved for experimental use and research, not used in general networking.                        |
 
-**Subnet Mask**
+**SUBNET MASK**
 
 A subnet mask is a 32-bit number used to divide an IP address into network and host parts.
 
