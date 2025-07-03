@@ -1058,8 +1058,6 @@ Example: For subnet `192.168.1.0/24`, broadcast IP is `192.168.1.255`.
 | *Recipients*       | Single specific device                            | All devices on the network                         | A specific group of devices that joined the group|
 | *Efficiency*       | Efficient, only one receiver                      | Inefficient, all devices receive data             | Efficient, only interested receivers get data    |
 | *Use Case Examples*| Web browsing, file transfer, email               | ARP requests, DHCP discovery                       | IPTV, video conferencing, stock ticker updates   |
-| *IP Address Range* | Any unicast IP (e.g., 192.168.1.10)            | 255.255.255.255 (IPv4 broadcast)                 | 224.0.0.0 – 239.255.255.255 (IPv4 multicast) |
-| *MAC Address*      | Device’s unique MAC address                        | FF:FF:FF:FF:FF:FF (broadcast)                    | Starts with 01:00:5E (IPv4 multicast)           |
 
 **MAC Address**
 
