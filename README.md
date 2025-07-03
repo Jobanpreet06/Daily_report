@@ -643,6 +643,8 @@ This helps keep your system running smoothly and fast without interrupting your 
 Blue Screen of Death (BSOD) and Why It Happens
 BSOD is an error screen shown by Windows when the system encounters a serious problem it cannot fix on its own. It stops everything to prevent damage.
 
+![alt text](bsod.jpg)
+
 **Why BSOD happens:**
 
 - Faulty or incompatible hardware (like bad RAM or hard drives)
@@ -867,3 +869,182 @@ It “crimps” or presses the metal pins inside the connector onto the wires in
 ![alt text](colorrj.png)
 
 ## 7th day of training
+## Networking Basics
+
+**Host**
+
+Host refers to any device that connects to a network and can send or receive data. This includes:
+
+**Examples of Hosts:**
+
+- Computers (laptops, desktops)
+- Servers
+- Smartphones
+- Tablets
+- Printers
+- IoT devices (smart TVs, smart thermostats, etc.)
+
+![alt text](host.png)
+
+**Client**
+
+A client is a device or software that initiates communication with a server to access services or resources.
+
+**Examples:**
+
+- A web browser (like Chrome) requesting a web page.
+- An email app checking your inbox.
+- A mobile app fetching data from a server.
+
+**Server**
+
+A server is a device or program that waits for requests and then responds with data or services.
+
+**Examples:**
+
+- A web server hosting a website.
+- A file server storing and sharing files.
+- A database server handling data queries.
+
+**What is a Network?**
+
+A network is a group of two or more computers or devices connected together so they can communicate and share resources.
+
+**IP Address**
+
+- An IP address uniquely identifies a device on a network.
+- It enables devices to communicate with each other.
+
+**Unique and Universal Properties**
+
+- **Uniqueness:**  
+  - Public IPs are **globally unique**.  
+  - Private IPs are unique **only within their private network** but can be reused elsewhere.
+
+- **Universality:**  
+  - IP addressing standards ensure every device worldwide can be identified in networks.
+
+| IP Type     | Usage                  |
+|------------|------------------------|
+| Public     | Accessing the Internet |
+| Private    | Internal Network Use   |
+
+**IPv4 and IPv6**
+
+| Feature         | IPv4                       | IPv6                            |
+|-----------------|----------------------------|--------------------------------|
+| Address Length  | 32 bits                    | 128 bits                       |
+| Address Format  | Dotted decimal (e.g., 192.168.1.1) | Hexadecimal, colon-separated (e.g., 2001:0db8::1) |
+| Address Space   | ~4.3 billion addresses    | Vast (3.4×10^38 addresses)      |
+| Header Complexity | Simple                    | More complex, improved features |
+| Deployment      | Widely used                | Growing adoption, future-proof  |
+
+![alt text](ipv4ipv6.png)
+
+**NOTATIONS**
+
+**Decimal Notation**
+- Uses **base 10** number system (digits 0–9).
+- Most common in everyday life.
+- Example: `192`, `168`, `1`, `1` in IPv4 address `192.168.1.1`.
+
+**Binary Notation**
+- Uses **base 2** number system (digits 0 and 1).
+- Computers operate using binary internally.
+- Each decimal number in an IPv4 address corresponds to an 8-bit binary number.
+- Example:  
+  - Decimal `192` = Binary `11000000`  
+  - Decimal `168` = Binary `10101000`  
+  - Decimal `1` = Binary `00000001`
+
+**Classful Addressing**
+
+Classful addressing is an early way of dividing IPv4 addresses into fixed categories called classes based on the first few bits of the address.
+
+**Network and Host**
+
+Network: The part of an IP address that identifies the specific network a device belongs to.
+
+Host: The part of the IP address that identifies the specific device (computer, printer, etc.) on that network.
+
+**Example:**
+
+In the IP address 192.168.1.10 with subnet mask 255.255.255.0:
+
+Network part: 192.168.1
+
+Host part: 10
+
+**Prefix and Suffix**
+
+Prefix: Another name for the network portion of the IP address. Often expressed with CIDR notation, e.g., /24 means the first 24 bits are the network prefix.
+
+Suffix: Refers to the host portion of the IP address — the bits left over after the prefix that identify the device.
+
+*In clasful addressing, address space is divided into 5 classes: A, B, C, D, E. Each occupies some part of address space.
+
+![alt text](ip.jpg)
+
+**Subnetting**
+
+Subnetting is the process of dividing a larger IP network into smaller, more manageable subnetworks (subnets).
+
+![alt text](subnet.png)
+
+| Class | Address Range               | Starting Bits | Default Subnet Mask    | Number of Networks | Hosts per Network | Purpose / Theory                                                                                     |
+|-------|-----------------------------|---------------|-----------------------|--------------------|-------------------|----------------------------------------------------------------------------------------------------|
+| A     | 0.0.0.0 – 127.255.255.255  | 0             | 255.0.0.0 (/8)        | 128                | ~16 million      | Designed for very large networks with many hosts, such as large ISPs or multinational corporations. |
+| B     | 128.0.0.0 – 191.255.255.255| 10            | 255.255.0.0 (/16)     | 16,384             | ~65,000          | Suitable for medium-sized networks like universities or large businesses.                           |
+| C     | 192.0.0.0 – 223.255.255.255| 110           | 255.255.255.0 (/24)   | Over 2 million     | 254              | Intended for small networks, such as small offices or home networks.                               |
+| D     | 224.0.0.0 – 239.255.255.255| 1110          | N/A                   | N/A                | N/A              | Reserved for multicast addressing, allowing data to be sent to multiple devices simultaneously.    |
+| E     | 240.0.0.0 – 255.255.255.255| 1111          | N/A                   | N/A                | N/A              | Reserved for experimental use and research, not used in general networking.                        |
+
+**Subnet Mask**
+
+A subnet mask is a 32-bit number used to divide an IP address into network and host parts.
+
+**Purpose**
+
+- It determines which part of the IP address refers to the network and which part refers to the host.
+- Helps routers and devices identify the subnet to which an IP belongs.
+
+**Format**
+
+- Written in the same format as an IPv4 address (four decimal octets).
+- Example: `255.255.255.0`
+
+**Network IP (Network Address)**
+
+- The network IP identifies the specific subnet.
+- It is the first address in the subnet.
+- All host bits are set to 0.
+- Not assigned to any device.
+  
+Example: For subnet `192.168.1.0/24`, network IP is `192.168.1.0`.
+
+**Broadcast IP (Broadcast Address)**
+
+- The broadcast IP is used to send messages to all devices on the subnet.
+- It is the last address in the subnet.
+- All host bits are set to 1.
+- Not assigned to any device.
+
+Example: For subnet `192.168.1.0/24`, broadcast IP is `192.168.1.255`.
+
+**CIDR (Classless Inter-Domain Routing)**
+
+- CIDR notation represents the network prefix length.
+- Written as IP address followed by a slash and number of bits in the network part.
+- Example: `192.168.1.0/24` means the first 24 bits are network bits.
+
+**Example: Subnetting a /24 into /26**
+
+| Parameter            | Value                   |
+|----------------------|-------------------------|
+| Original Network     | 192.168.1.0/24          |
+| New Subnet Mask      | 255.255.255.192 (/26)   |
+| Number of Subnets    | 4                       |
+| Hosts per Subnet     | 62                      |
+| Network IP (Subnet 1)| 192.168.1.0             |
+| Broadcast IP (Subnet 1)| 192.168.1.63           |
+
