@@ -939,7 +939,7 @@ A network is a group of two or more computers or devices connected together so t
 | Header Complexity | Simple                    | More complex, improved features |
 | Deployment      | Widely used                | Growing adoption, future-proof  |
 
-![alt text](ipv4ipv6.png)
+![alt text](ipv4ipv6.jpg)
 
 **NOTATIONS**
 
@@ -989,7 +989,7 @@ Suffix: Refers to the host portion of the IP address — the bits left over afte
 
 Subnetting is the process of dividing a larger IP network into smaller, more manageable subnetworks (subnets).
 
-![alt text](subnet.png)
+![alt text](subnet.webp)
 
 | Class | Address Range               | Starting Bits | Default Subnet Mask    | Number of Networks | Hosts per Network | Purpose / Theory                                                                                     |
 |-------|-----------------------------|---------------|-----------------------|--------------------|-------------------|----------------------------------------------------------------------------------------------------|
