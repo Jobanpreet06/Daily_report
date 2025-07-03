@@ -865,3 +865,5 @@ It “crimps” or presses the metal pins inside the connector onto the wires in
 **RJ connector wire color combinations**
 
 ![alt text](colorrj.png)
+
+## 7th day of training
