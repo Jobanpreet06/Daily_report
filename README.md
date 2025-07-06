@@ -1092,3 +1092,141 @@ A default gateway is like the door your device uses to go outside your local net
 - Your computer wants to go to Google.
 - It sends the request to the default gateway.
 - The gateway/router sends it to the internet to find Google.
+
+# 8th day of training
+
+**DHCP**
+
+DHCP (Dynamic Host Configuration Protocol) is a network management protocol used to automatically assign IP addresses and other network configuration settings to devices on a network, allowing them to communicate effectively.
+
+**Commands**
+
+**ping**
+
+The ping command is used to test the connectivity between your computer and another device (host) on a network. It helps determine if the host is reachable and measures the response time.
+
+In networking, ping is a command-line utility that uses the ICMP (Internet Control Message Protocol) to test the reachability of a host on an IP network and measure the round-trip time (RTT) for packets sent from the source to the destination.
+
+**Syntax:** ping website_address
+
+Example: ping www.gndec.com
+
+To Exit: Press Ctrl + C in the command prompt/terminal.
+
+**64 bytes**
+
+In the context of the ping command, "64 bytes" refers to the size of the ICMP Echo Reply packet received from the destination host. It indicates that the system received 64 bytes of data, which includes both the ICMP header (8 bytes) and the payload (typically 56 bytes).
+
+**Loopback Address (127.0.0.1)**
+
+A loopback address is a special IP address used to test network functionality on your own computer — it routes traffic back to the local machine.
+
+**Key Details**
+
+IPv4 Loopback: 127.0.0.1
+
+IPv6 Loopback: ::1
+
+Also known as localhost
+
+**Purpose**
+
+Test if your TCP/IP stack is working
+
+Verify if services are running locally
+
+Develop and test network applications without needing a physical network
+
+**Traceroute**
+
+traceroute is a network utility that shows the route (path) packets take from your computer to a destination host by listing all intermediate routers (hops) along the way. It helps diagnose where delays or network failures occur.
+
+**Command Syntax:**
+
+Linux/macOS:
+
+    traceroute [options] <destination>
+
+Windows (command is tracert):
+
+    tracert [options] <destination>
+    
+**Example:**
+
+    traceroute google.com
+    
+or on Windows:
+
+    tracert google.com
+
+- *** (Asterisks) in Output: It indicates that the router at that hop did not reply.
+
+**ipconfig**
+
+A command-line tool used in Windows to display and manage the IP configuration of network interfaces.
+
+**ifconfig**
+
+A command-line utility used in Linux/Unix/macOS to configure, control, and display network interfaces.
+
+**Purpose:**
+
+Both commands show network settings like:
+
+- IP address
+- Subnet mask
+- Default gateway
+- 
+They can also be used to enable/disable interfaces or renew DHCP leases.
+
+**Basic Syntax:**
+
+Windows (ipconfig):
+
+    ipconfig [options]
+    
+Linux/macOS (ifconfig):
+
+    ifconfig [interface] [options]
+
+**What is Ethernet?**
+
+Ethernet is a popular wired networking technology used to connect devices within a local area network (LAN), enabling communication and data sharing.
+
+**How it Works:**
+
+- Plug one end of an Ethernet cable into your PC's network port.
+- Plug the other end of the cable into a modem or router.
+- Your PC can now communicate over the network and access the internet.
+
+**Where It’s Used:**
+
+- Home networks to connect PCs, printers, and smart devices.
+- Business offices for reliable and secure LAN connections.
+- Data centers for fast, stable connections between servers and storage.
+- Industrial environments where robust, wired communication is critical.
+
+**Ethernet vs Wi-Fi**
+
+| Feature           | Ethernet                          | Wi-Fi                           |
+|-------------------|---------------------------------|--------------------------------|
+| Connection Type   | Wired                            | Wireless                       |
+| Speed             | Typically 100 Mbps to 10 Gbps+  | Typically 54 Mbps to 1-2 Gbps+ |
+| Reliability       | Very reliable, low interference | Less reliable, subject to interference |
+| Latency           | Low latency                     | Higher latency due to wireless overhead |
+| Security          | More secure (physical access required) | Wireless security protocols (WPA2/WPA3) |
+| Mobility          | Limited to cable length         | High mobility, supports device movement |
+| Setup Complexity  | Requires cables and ports       | Easier setup, no cables needed |
+| Cost              | Usually lower per device        | May require access points and more infrastructure |
+| Common Usage      | Offices, data centers, gaming   | Homes, public hotspots, mobile devices |
+| Range             | Limited by cable length (~100m max) | Varies (up to ~100m indoors, more outdoors) |
+
+
+ **Ethernet vs Wi-Fi vs LAN vs WAN**
+
+ | Term     | What It Is                        | Connection Type       | Typical Use                        |
+|----------|---------------------------------|----------------------|----------------------------------|
+| Ethernet | Wired network technology         | Cable (RJ45)         | Reliable, fast local connections |
+| Wi-Fi    | Wireless network technology      | Radio waves          | Wireless local & mobile devices  |
+| LAN      | Local Area Network (small area)  | Wired or wireless    | Home, office networks            |
+| WAN      | Wide Area Network (large area)   | Various (Internet, leased lines) | Connects multiple LANs over long distances |
