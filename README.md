@@ -1113,6 +1113,8 @@ Example: ping www.gndec.com
 
 To Exit: Press Ctrl + C in the command prompt/terminal.
 
+![alt text](cmdp.png)
+
 **64 bytes**
 
 In the context of the ping command, "64 bytes" refers to the size of the ICMP Echo Reply packet received from the destination host. It indicates that the system received 64 bytes of data, which includes both the ICMP header (8 bytes) and the payload (typically 56 bytes).
