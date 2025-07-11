@@ -1262,7 +1262,7 @@ Markup Language: Uses tags to "mark up" content for display in web browsers.
 | `<!DOCTYPE html>`| Declares HTML5 document type to the browser              |
 | `<html>`         | Root of the HTML document                                |
 | `<head>`         | Contains page info (not shown on page) like title/meta   |
-| `<title>`        | Sets the page title (shown in browser tab)               
+| `<title>`        | Sets the page title (shown in browser tab)               |
 
 **Common HTML Tags:**
 
