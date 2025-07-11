@@ -1233,6 +1233,30 @@ Ethernet is a popular wired networking technology used to connect devices within
 | LAN      | Local Area Network (small area)  | Wired or wireless    | Home, office networks            |
 | WAN      | Wide Area Network (large area)   | Various (Internet, leased lines) | Connects multiple LANs over long distances |
 
+# 9th day of training
+# INTRODUCTION TO HTML
+
+HTML stands for HyperText Markup Language. It is the standard language used to create and design web pages. HTML provides the basic structure for web content by using tags and elements.
+
+**Key Points:**
+
+HyperText: Refers to the ability to link to other web pages.
+
+Markup Language: Uses tags to "mark up" content for display in web browsers.
+
+**Basic Structure of an HTML Document:**
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>My First Web Page</title>
+      </head>
+      <body>
+        <h1>Welcome to HTML</h1>
+        <p>This is a paragraph.</p>
+        </body>
+    </html>
+
 
 what is git
 what is version control(2types)
