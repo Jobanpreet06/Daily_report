@@ -1267,12 +1267,12 @@ Markup Language: Uses tags to "mark up" content for display in web browsers.
 
 **Common HTML Tags:**
 
-- **<h1> to <h6>:** Headings
-- **<p>:** Paragraph
-- **<a>:** Link
-- **<img>:** Image
-- **<ul>, <ol>, <li>:** Lists
-- **<div>, <span>:** Layout and grouping
+- `<h1> to <h6>`: Headings
+- `<p>`: Paragraph
+- `<a>`: Link
+- `<img>`: Image
+- `<ul>, <ol>, <li>`: Lists
+- `<div>, <span>`: Layout and grouping
 
 **Purpose:**
 
