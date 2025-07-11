@@ -1254,8 +1254,28 @@ Markup Language: Uses tags to "mark up" content for display in web browsers.
       <body>
         <h1>Welcome to HTML</h1>
         <p>This is a paragraph.</p>
-        </body>
+      </body>
     </html>
+
+| **Part**         | **Purpose**                                              |
+|------------------|----------------------------------------------------------|
+| `<!DOCTYPE html>`| Declares HTML5 document type to the browser              |
+| `<html>`         | Root of the HTML document                                |
+| `<head>`         | Contains page info (not shown on page) like title/meta   |
+| `<title>`        | Sets the page title (shown in browser tab)               
+
+**Common HTML Tags:**
+
+- <h1> to <h6>: Headings
+- <p>: Paragraph
+- <a>: Link
+- <img>: Image
+- <ul>, <ol>, <li>: Lists
+- <div>, <span>: Layout and grouping
+
+**Purpose:**
+
+HTML is the foundation of all web pages. It works with CSS (for styling) and JavaScript (for interactivity) to create modern websites.
 
 
 what is git
