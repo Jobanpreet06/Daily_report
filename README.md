@@ -1232,3 +1232,10 @@ Ethernet is a popular wired networking technology used to connect devices within
 | Wi-Fi    | Wireless network technology      | Radio waves          | Wireless local & mobile devices  |
 | LAN      | Local Area Network (small area)  | Wired or wireless    | Home, office networks            |
 | WAN      | Wide Area Network (large area)   | Various (Internet, leased lines) | Connects multiple LANs over long distances |
+
+
+what is git
+what is version control(2types)
+why  future coders must learn git
+why it is open source
+git architecture
