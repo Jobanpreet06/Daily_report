@@ -1264,6 +1264,7 @@ Markup Language: Uses tags to "mark up" content for display in web browsers.
 | `<head>`         | Contains page info (not shown on page) like title/meta   |
 | `<title>`        | Sets the page title (shown in browser tab)               |
 
+
 **Common HTML Tags:**
 
 - <h1> to <h6>: Headings
