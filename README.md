@@ -1358,6 +1358,181 @@ The `<input>` tag is used to create interactive fields in a form. The type of in
 ![alt text](radio.png)
 
 ![alt text](checkboxes.png)
+
+# Semantic HTML
+Semantic HTML uses elements that clearly describe their meaning in both the code and to the browser and developer. Instead of using generic `<div>` and `<span>` tags, semantic tags like `<header>`, `<footer>`, and `<article>` provide meaningful structure.
+
+
+**1. `<header>`**
+
+The `<header>` element represents the top section of a page or a section, usually containing a logo, title, or navigation links.
+
+**Example:**
+
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+
+**2. `<footer>`**
+
+The `<footer>` element defines the bottom section of a page or a section, usually containing contact info, copyright, or links.
+
+**Example:**
+
+    <footer>
+      <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+**3. `<nav>`**
+
+The `<nav>` element is used to define a navigation menu — links to different parts of the site or other pages.
+
+**Example:**
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+
+**4. `<section>`**
+
+The `<section>` element represents a thematic grouping of content, typically with a heading. It’s used to divide the page into meaningful areas.
+
+**Example:**
+
+    <section>
+      <h2>About Us</h2>
+      <p>We are a team of passionate developers.</p>
+    </section>
+
+**5. `<article>`**
+
+The `<article>` element is used for independent, self-contained content like a blog post, news article, or forum post.
+
+**Example:**
+
+    <article>
+      <h2>How to Learn HTML</h2>
+      <p>HTML is the foundation of web development...</p>
+    </article>
+
+# 12th day of training
+# BASIC STYLING IN HTML
+** CSS (Cascading Style Sheets)**
+
+CSS is used to style HTML elements — changing fonts, colors, layout, spacing, etc. There are 3 main ways to apply CSS:
+
+- Inline CSS – directly inside an HTML tag
+- Internal CSS – in a `<style>` block in the `<head>` section
+- External CSS – in a separate .css file
+
+**CSS Properties Used:**
+
+| Property           | Description               | Example                     |
+| ------------------ | ------------------------- | --------------------------- |
+| `color`            | Text color                | `color: red;`               |
+| `background-color` | Background color          | `background-color: yellow;` |
+| `font-size`        | Size of the font          | `font-size: 20px;`          |
+| `text-align`       | Alignment of text         | `text-align: center;`       |
+| `margin`           | Space outside the element | `margin: 10px;`             |
+| `padding`          | Space inside the element  | `padding: 10px;`            |
+| `font-family`      | Font type                 | `font-family: Arial;`       |
+
+
+
+**1. Inline CSS**
+
+Inline CSS is applied using the style attribute directly inside an HTML tag.
+
+**Example:**
+
+    <p style="color: blue; font-size: 18px;">This is blue text with a font size of 18px.</p>
+
+**2. Internal CSS**
+
+Internal CSS is placed inside a <style> tag within the <head> of the HTML document. It allows you to style multiple elements at once.
+
+**Example:**
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Internal CSS Example</title>
+      <style>
+        body {
+          background-color: #f4f4f4;
+          font-family: Arial, sans-serif;
+        }
+        h1 {
+          color: darkgreen;
+          text-align: center;
+        }
+        p {
+          color: #333;
+          font-size: 16px;
+          margin: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>Welcome to My Website</h1>
+      <p>This paragraph is styled using internal CSS.</p>
+    </body>
+    </html>
+
+**3. External CSS**
+
+External CSS is written in a separate file (e.g., style.css) and linked to your HTML file. This is the best practice for styling large or multi-page websites, because it keeps content (HTML) and design (CSS) separate.
+
+**How to Link:**
+
+In the `<head>` section of your HTML file:
+
+    <link rel="stylesheet" href="style.css">
+
+**Example:** index.html
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>External CSS Example</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>Welcome to My Website</h1>
+      <p>This is styled using external CSS.</p>
+    </body>
+    </html>
+
+**Example:** style.css
+
+    body {
+      background-color: #e0f7fa;
+      font-family: Verdana, sans-serif;
+    }
+
+    h1 {
+      color: navy;
+      text-align: center;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+
+
+
+
 what is git
 what is version control(2types)
 why  future coders must learn git
