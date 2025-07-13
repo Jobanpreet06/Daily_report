@@ -1279,6 +1279,37 @@ Markup Language: Uses tags to "mark up" content for display in web browsers.
 HTML is the foundation of all web pages. It works with CSS (for styling) and JavaScript (for interactivity) to create modern websites.
 
 
+# 10th day of training
+**HTML TAGS**
+
+**1. Heading Tags (<h1> to <h6>)**
+
+- Used to define headings or titles on a web page.
+- <h1> is the largest/most important, and <h6> is the smallest/least important.
+
+**2. Paragraph Tag (<p>)**
+
+- Used to define a block of text as a paragraph.
+
+**3. List Tags (<ul>, <ol>, <li>)**
+
+- Used to create lists.
+- <ul> = unordered list (bullets)
+- <ol> = ordered list (numbers)
+- <li> = list item
+
+**4. Image Tag (<img>)**
+
+- Used to display images.
+- It’s a self-closing tag.
+- Requires src (image URL or path) and alt (alternative text) attributes.
+
+**5. Anchor Tag (<a>)**
+
+- Used to create hyperlinks.
+- The href attribute specifies the destination URL.
+
+
 what is git
 what is version control(2types)
 why  future coders must learn git
