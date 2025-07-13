@@ -1282,20 +1282,20 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 # 10th day of training
 **HTML TAGS**
 
-**1. Heading Tags (<h1> to <h6>)**
+**1. Heading Tags (`<h1>` to `<h6>`)**
 
 - Used to define headings or titles on a web page.
 - `<h1>` is the largest/most important, and `<h6>` is the smallest/least important.
 
 ![alt text](heading.png)
 
-**2. Paragraph Tag (<p>)**
+**2. Paragraph Tag (`<p>`)**
 
 - Used to define a block of text as a paragraph.
 
 ![alt text](paragraph.png)
 
-**3. List Tags (<ul>, <ol>, <li>)**
+**3. List Tags (`<ul>`, `<ol>`, `<li>`)**
 
 - Used to create lists.
 - `<ul>` = unordered list (bullets)
@@ -1304,7 +1304,7 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 
 ![alt text](list.png)
 
-**4. Image Tag (<img>)**
+**4. Image Tag (`<img>`)**
 
 - Used to display images.
 - It’s a self-closing tag.
@@ -1312,7 +1312,7 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 
 ![alt text](img.png)
 
-**5. Anchor Tag (<a>)**
+**5. Anchor Tag (`<a>`)**
 
 - Used to create hyperlinks.
 - The href attribute specifies the destination URL.
