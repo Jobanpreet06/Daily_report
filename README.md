@@ -1285,18 +1285,24 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 **1. Heading Tags (<h1> to <h6>)**
 
 - Used to define headings or titles on a web page.
-- <h1> is the largest/most important, and <h6> is the smallest/least important.
+- `<h1>` is the largest/most important, and `<h6>` is the smallest/least important.
+
+![alt text](heading.png)
 
 **2. Paragraph Tag (<p>)**
 
 - Used to define a block of text as a paragraph.
 
+![alt text](paragraph.png)
+
 **3. List Tags (<ul>, <ol>, <li>)**
 
 - Used to create lists.
-- <ul> = unordered list (bullets)
-- <ol> = ordered list (numbers)
-- <li> = list item
+- `<ul>` = unordered list (bullets)
+- `<ol>` = ordered list (numbers)
+- `<li>` = list item
+
+![alt text](list.png)
 
 **4. Image Tag (<img>)**
 
@@ -1304,10 +1310,14 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 - It’s a self-closing tag.
 - Requires src (image URL or path) and alt (alternative text) attributes.
 
+![alt text](img.png)
+
 **5. Anchor Tag (<a>)**
 
 - Used to create hyperlinks.
 - The href attribute specifies the destination URL.
+
+![alt text](links.png)
 
 
 what is git
