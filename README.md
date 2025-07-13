@@ -1,5 +1,5 @@
-<img width="499" height="82" alt="image" src="https://github.com/user-attachments/assets/6c67acf0-20af-4477-82d6-e53db0517721" /># Daily Report
-## 1st day of training
+## Daily Report
+# 1st day of training
 **Orientation**
 
 Started the day with the introduction to our parent department, Computer Science and Engineering in the auditorium. Dr Priyanka introduced us with our department, about departmental library, socities and clubs, faculty. Then Dr Kiran Jyoti (Head of Deparment) gave us a brief overview about the syllabus, new pattern and the changes made to the scheme. Afterwards, we were guided to our respective labs.
