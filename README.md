@@ -1542,9 +1542,60 @@ In the `<head>` section of your HTML file:
 ![alt text](external.png)
 
 # 13th day of training
+# Introduction to Git and Version Control
+**What is Git?**
 
-what is git
-what is version control(2types)
-why  future coders must learn git
-why it is open source
-git architecture
+Git is a version control system that helps you track changes in your code over time. It allows multiple people to collaborate, revert to previous versions, and manage code history efficiently.
+
+**Why Git is Open Source**
+
+Git is open source so anyone can use, modify, and improve it freely. This openness helps millions collaborate, making Git reliable and widely adopted.
+
+**Why Future Coders Must Learn Git**
+
+Git is essential because it helps you track code changes, work with others smoothly, and showcase your projects. Almost every software job requires Git skills, especially for contributing to open source and team projects.
+
+**What is Version Control?**
+
+Version control is a system that tracks changes to files (usually code) over time. It lets you save different versions, so you can:
+
+- Go back to earlier versions if something breaks
+- Compare changes between versions
+- Work together with others without overwriting each other’s work
+
+**Types**
+
+**1. Local Version Control**
+
+- Keeps track of changes on your own computer.
+- Simple, but risky if your computer fails.
+
+**2. Distributed Version Control**
+
+- Every user has a full copy of the project history.
+- Examples: Git, Mercurial.
+- Safer and great for collaboration.
+
+**Git Architecture**
+
+**1. Working Directory**
+
+- Your local folder where you edit files.
+- Contains the actual project files.
+
+**2. Staging Area (Index)**
+
+- A place where you prepare (stage) changes before committing.
+- You choose which changes to include in the next commit.
+
+**3. Git Repository (Local Repo)**
+
+- Stores all commits and the full history of your project locally.
+- Contains metadata and objects like commits, trees, and blobs.
+
+**4. Remote Repository**
+
+- A shared version of the repository hosted on servers (e.g., GitHub, GitLab).
+- Used to collaborate and push/pull changes between team members.
+
+**COMMANDS**
