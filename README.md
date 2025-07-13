@@ -1599,3 +1599,54 @@ Version control is a system that tracks changes to files (usually code) over tim
 - Used to collaborate and push/pull changes between team members.
 
 **COMMANDS**
+
+1.Create a repository
+
+
+2.Copy the HTML line of the repo
+
+
+3.Go to Git Bash
+
+4.Run command: git clone link
+
+5.Check if you got the repo cloned on your local dive by ls
+
+6.Move inside the direcotry by cd repo_name
+
+7.Check the content inside your repo (optional)
+
+8.Check status of the repo by git status
+
+9.If the response id 'Up to date', you are good to move forward 
+10.Create a new file by touch file_name.html
+
+11.Open the file by nano file_name.html, write your code and save it.
+
+
+12.Add by: git add file_name.html
+
+
+
+13.git push origin main:
+
+It directs and you get asked to authorize Git Credential Manager, which securely saves GitHub login credentials for pushing/pulling code.
+
+
+14.Click on 'Authorize git-ecosystem'
+
+
+
+
+
+15.To commit: git commit -m "message" 
+
+
+
+16.Try git commit -m "message" again, and push this by command: git push origin main:
+
+
+
+17.Now you can see the file in your repo: 
+
+Daily_bash_notes_2025/Git/2025-July-11.md at main · Kamal-jeetkaur/Daily_bash_notes_2025 
