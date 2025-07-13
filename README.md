@@ -1280,7 +1280,7 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 
 
 # 10th day of training
-**HTML TAGS**
+# BASIC HTML TAGS
 
 **1. Heading Tags (`<h1>` to `<h6>`)**
 
@@ -1319,7 +1319,45 @@ HTML is the foundation of all web pages. It works with CSS (for styling) and Jav
 
 ![alt text](links.png)
 
+# 11th day of training
+# FORM AND INPUT TYPES
+The `<form>` tag is used to create an HTML form for user input. A form can include input fields like text boxes, checkboxes, radio buttons, and buttons to submit or reset data.
 
+**Common Attributes:**
+
+- action: URL where the form data is sent after submission.
+- method: HTTP method (usually "get" or "post").
+
+**Example:**
+
+    <form action="/submit" method="post">
+      <!-- form inputs go here -->
+    </form>
+
+![alt text](form.png)
+
+**`<input>` Tag**
+
+The `<input>` tag is used to create interactive fields in a form. The type of input is defined using the type attribute.
+
+**Common Input Types:**
+
+| Input Type | Purpose                                  | Example Syntax                              |
+|------------|------------------------------------------|---------------------------------------------|
+| `text`     | Single-line text input                   | `<input type="text">`                       |
+| `password` | Hides characters (for passwords)         | `<input type="password">`                   |
+| `email`    | Validates email format                   | `<input type="email">`                      |
+| `number`   | Numeric input only                       | `<input type="number">`                     |
+| `checkbox` | Select one or more options               | `<input type="checkbox">`                   |
+| `radio`    | Select one option from a group           | `<input type="radio" name="gender">`        |
+| `submit`   | Submit the form                          | `<input type="submit">`                     
+| `button`   | A clickable button (no submit default)   | `<input type="button" value="Click">`       |
+
+**Examples:**
+
+![alt text](radio.png)
+
+![alt text](checkboxes.png)
 what is git
 what is version control(2types)
 why  future coders must learn git
