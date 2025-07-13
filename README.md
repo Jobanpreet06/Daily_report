@@ -1,4 +1,4 @@
-# Daily Report
+<img width="499" height="82" alt="image" src="https://github.com/user-attachments/assets/6c67acf0-20af-4477-82d6-e53db0517721" /># Daily Report
 ## 1st day of training
 **Orientation**
 
@@ -1425,7 +1425,7 @@ The `<article>` element is used for independent, self-contained content like a b
 
 # 12th day of training
 # BASIC STYLING IN HTML
-** CSS (Cascading Style Sheets)**
+**CSS (Cascading Style Sheets)**
 
 CSS is used to style HTML elements — changing fonts, colors, layout, spacing, etc. There are 3 main ways to apply CSS:
 
@@ -1454,6 +1454,10 @@ Inline CSS is applied using the style attribute directly inside an HTML tag.
 **Example:**
 
     <p style="color: blue; font-size: 18px;">This is blue text with a font size of 18px.</p>
+
+**OUTPUT:**
+
+![alt text](inline.png)
 
 **2. Internal CSS**
 
@@ -1486,6 +1490,10 @@ Internal CSS is placed inside a <style> tag within the <head> of the HTML docume
       <p>This paragraph is styled using internal CSS.</p>
     </body>
     </html>
+
+**OUTPUT:**
+
+![alt text](internal.png)
 
 **3. External CSS**
 
@@ -1529,9 +1537,11 @@ In the `<head>` section of your HTML file:
       padding: 10px;
     }
 
+**OUTPUT:**
 
+![alt text](external.png)
 
-
+# 13th day of training
 
 what is git
 what is version control(2types)
