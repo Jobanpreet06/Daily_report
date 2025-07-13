@@ -1598,77 +1598,78 @@ Version control is a system that tracks changes to files (usually code) over tim
 - A shared version of the repository hosted on servers (e.g., GitHub, GitLab).
 - Used to collaborate and push/pull changes between team members.
 
+![alt text](archi.jpg)
+
 **COMMANDS**
 
-1.Go to GitHub and create a new repository
+**1. Go to GitHub and create a new repository.**
 
 ![alt text](repo1.png)
 ![alt text](repo.png)
 
-2.Copy the repository HTTPS clone link
+**2. Copy the repository HTTPS clone link.**
 
 ![alt text](http.png)
 
-3.Open Git Bash
+**3. Open Git Bash.**
 
-4.Clone the Repository
+**4. Clone the Repository.**
 
 **What is git clone?**
 
-Git clone is a Git command used to create a local copy of a remote repository (usually from GitHub or another Git server).
+- Git clone is a Git command used to create a local copy of a remote repository (usually from GitHub or another Git server).
 
-5.Check if you got the repository cloned on your local dive by ls
+**5. Check if you got the repository cloned on your local drive using ls.**
 
-6.Move inside the direcotry by cd repository_name
+**6. Move inside the direcotry by cd repository_name.**
 
-7.Check the content inside your repo (optional)
+**7. Again, check the content inside your repository.**
 
 ![alt text](code1.png)
 
-8.Check status of the repo by git status
+**8. Check status of the repository by git status.**
 
 **What is git status?**
 
-Git status is a Git command used to display the current state of the working directory and staging area. It tells you what changes have been staged, what changes are not staged, and which files aren’t being tracked by Git.
+- Git status is a Git command used to display the current state of the working directory and staging area. It tells you what changes have been staged, what changes are not staged, and which files aren’t being tracked by Git.
 
-9.If the response id 'Up to date', you are good to move forward
+**9. If the response id 'Up to date', you are good to move forward.**
 
-10.Create a new file by touch file_name.html
+**10. Create a new file by touch file_name.html.**
 
-11.Open the file by nano file_name.html, write html code and save it.
+**11. Open the file by nano file_name.html, write html code and save it.**
 
 ![alt text](nanoo.png)
 
-12.Add by: git add file_name.html
+**12. Add by: git add file_name.html**
 
 **What is git add?**
 
-Git add is a Git command used to stage changes (new, modified, or deleted files) so they are included in the next commit.
+- Git add is a Git command used to stage changes (new, modified, or deleted files) so they are included in the next commit.
 
-13.git push origin main:
+**13. Git push origin main:**
 
 **What is git push origin main?**
 
-Git push origin main is a Git command used to upload your local commits from the main branch to the remote repository named origin (usually GitHub).
-
-It directs and you get asked to authorize Git Credential Manager, which securely saves GitHub login credentials for pushing/pulling code.
+- Git push origin main is a Git command used to upload your local commits from the main branch to the remote repository named origin (usually GitHub).
+- It directs and you get asked to authorize Git Credential Manager, which securely saves GitHub login credentials for pushing/pulling code.
 
 ![alt text](ss1.png)
 
-14.Click on 'Authorize git-ecosystem'
+**14. Now, Click on 'Authorize git-ecosystem'.**
 
 ![alt text](ss2.png)
 
 ![alt text](ss3.png)
 
-15.To commit: git commit -m "message" 
+**15. To commit: git commit -m "message".**
 
 **What is git commit -m?**
 
-Git commit -m is a Git command that saves (or commits) your staged changes and includes a message describing what you’ve done.
+- Git commit -m is a Git command that saves (or commits) your staged changes and includes a message describing what you’ve done.
 
 ![alt text](code2.png)
 
-17.Now you can see the file in your repo:
+**17. Now you can see the file in your repository.**
 
 ![alt text](html.png)
