@@ -1670,6 +1670,6 @@ Version control is a system that tracks changes to files (usually code) over tim
 
 ![alt text](code2.png)
 
-**17. Now you can see the file in your repository.**
+**16. Now you can see the file in your repository.**
 
 ![alt text](html.png)
