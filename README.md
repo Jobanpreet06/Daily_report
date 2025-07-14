@@ -1673,3 +1673,52 @@ Version control is a system that tracks changes to files (usually code) over tim
 **16. Now you can see the file in your repository.**
 
 ![alt text](html.png)
+
+# 14th day of training
+# 
+
+**What is Branching in Git?**
+
+Branching means creating a separate version of your project so you can work on changes without messing up the main version.
+
+**Why use branches?**
+
+- Try out new features or ideas
+- Fix bugs without affecting the main code
+- Work in teams on different tasks at the same time
+
+**To create a new branch**
+
+    git branch branch-name
+
+To create and switch to it at the same time:
+
+    git checkout branch-name
+
+**git push -u origin branch_name**
+
+Pushes the local branch named branchname to the remote repository called origin and sets it as the upstream branch for easier future pushes and pulls.
+
+| Part           | Explanation                                                                                  |
+|----------------|----------------------------------------------------------------------------------------------|
+| `git push`     | Uploads your local commits to the remote repository.                                         |
+| `-u` or `--set-upstream` | Sets the specified remote branch as the default upstream branch for the current local branch. Enables simpler future pushes and pulls. |
+| `origin`       | The name of the remote repository you're pushing to. By default, `origin` refers to the main remote. |
+| `branchname`   | The name of the local branch you want to push to the remote repository.                      |
+
+
+cd git
+ls
+cd day11
+git status
+git branch MynewBranch
+git checkout MynewBranch  theory
+touch test1.txt
+git status
+ 
+practical demonstration for branching
+git push -u origin MynewBranch
+
+merging
+
+
