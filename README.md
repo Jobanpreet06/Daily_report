@@ -1720,7 +1720,6 @@ is used to switch to an existing branch named branchname in a Git repository.
 
 ![alt text](txt1.png)
 
-
 ![alt text](txt2.png)
 
 **Merging**
@@ -1732,3 +1731,6 @@ Merging in Git combines the changes from one branch into another. Typically, you
 
 
 ![alt text](merge.png)
+
+# 15th day of training
+# QUIZ AND CAREER COUNSELLING
