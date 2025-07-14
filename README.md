@@ -1675,7 +1675,7 @@ Version control is a system that tracks changes to files (usually code) over tim
 ![alt text](html.png)
 
 # 14th day of training
-# 
+# BRANCHING AND MERGING
 
 **What is Branching in Git?**
 
@@ -1694,6 +1694,10 @@ Branching means creating a separate version of your project so you can work on c
 To create and switch to it at the same time:
 
     git checkout branch-name
+    
+![alt text](code141.png)
+
+**Practical demonstration for branching**
 
 **git push -u origin branch_name**
 
@@ -1706,19 +1710,25 @@ Pushes the local branch named branchname to the remote repository called origin 
 | `origin`       | The name of the remote repository you're pushing to. By default, `origin` refers to the main remote. |
 | `branchname`   | The name of the local branch you want to push to the remote repository.                      |
 
+The command:
 
-cd git
-ls
-cd day11
-git status
-git branch MynewBranch
-git checkout MynewBranch  theory
-touch test1.txt
-git status
- 
-practical demonstration for branching
-git push -u origin MynewBranch
+    git checkout branchname
 
-merging
+is used to switch to an existing branch named branchname in a Git repository.
+
+![alt text](code142.png)
+
+![alt text](txt1.png)
 
 
+![alt text](txt2.png)
+
+**Merging**
+
+Merging in Git combines the changes from one branch into another. Typically, you:
+
+- Switch to the branch you want to merge into (often main or develop).
+- Run the merge command with the name of the branch you want to merge from.
+
+
+![alt text](merge.png)
